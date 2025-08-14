@@ -9,8 +9,8 @@ processed_columns = [
 ]
 
 if __name__ == "__main__":
-    file_path = "data/processed/student_performance_encoded.csv"   # <-- Update if needed
+    file_path = "data/processed/student_performance_encoded.csv"    
     target_column = "performance"
-    main(file_path, target_column, processed_columns) 
+    main(file_path, target_column, processed_columns)
     
     
